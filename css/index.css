@@ -1,0 +1,57 @@
+* {
+  font-family: sans-serif;
+  color: blueviolet;
+}
+body {
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+}
+.level {
+  font-size: 50px;
+  margin: 15px;
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+.menu,
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  flex-direction: column;
+  margin: 200px;
+  margin-bottom: 0px;
+}
+.content {
+  margin: auto;
+  flex-wrap: wrap;
+  width: 600px;
+}
+.card {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+}
+.active {
+  background-color: blueviolet;
+}
+.active-select{
+  background-color: blue;
+}
+.non-active {
+  background-color: black;
+}
+.info{
+  display: none;
+  text-align: center;
+  padding: 10px;
+  border: 3px solid blueviolet;
+  width: max-content;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 20px auto;
+}
